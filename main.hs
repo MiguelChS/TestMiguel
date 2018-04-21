@@ -7,3 +7,5 @@ factorial numero
 factorial2 numero = factorial2(numero-1)*numero
 nombrePar :: String -> Bool
 nombrePar = even.length
+
+-- esta version es con este comentario brian puto
