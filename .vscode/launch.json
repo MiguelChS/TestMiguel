@@ -10,7 +10,7 @@
       "request": "launch",
       "internalConsoleOptions": "openOnSessionStart",
       "workspace": "${workspaceRoot}",
-      "startup": "${workspaceRoot}/modulo2.hs",
+      "startup": "${workspaceRoot}/modulo4.hs",
       "startupFunc": "",
       "startupArgs": "",
       "stopOnEntry": true,
