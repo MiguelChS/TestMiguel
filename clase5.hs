@@ -9,3 +9,11 @@ numero = [1..20000];
 -- fold_ funcion -- semilla ? que carajo es la semilla es mi punto de partida
 -- foldr filter semilla lista
 -- foldl
+
+lista = [4,2,3,5]
+
+isOrdenAsc :: [Int] -> Bool
+isOrdenAsc [_] = True
+isOrdenAsc (x:xs)
+  | x < head xs = isOrdenAsc (xs)
+  | otherwise = False
