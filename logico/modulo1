@@ -1,0 +1,7 @@
+pelicula(duroMatar)         pelicula/1 aridad
+pelicula(infinitywar)       pelicula/1 monadico     
+
+Base de conocimiento
+punto al final de cada sentencia
+si queresmos decir que friends no es una pelicula directamente no se agrega a la base de conocimiento
+?- prelicula(infinitywar) 

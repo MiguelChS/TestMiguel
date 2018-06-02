@@ -10,7 +10,7 @@
       "request": "launch",
       "internalConsoleOptions": "openOnSessionStart",
       "workspace": "${workspaceRoot}",
-      "startup": "${workspaceRoot}/modulo5.hs",
+      "startup": "${workspaceRoot}/huber.hs",
       "startupFunc": "",
       "startupArgs": "",
       "stopOnEntry": true,
