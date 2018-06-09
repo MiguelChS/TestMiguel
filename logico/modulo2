@@ -1,0 +1,24 @@
+de que se trata el paradigma logico?
+
+operadores logico
++,>=,=<,==,-
+
+is
+
+[elemento | lista] [elemento | [elemento | lista]]
+
+-length()
+-member(leo,[mati,leo,xd])
+-append([a],[b],L) = L = [a,b]
+-append([a],[b],[a,b]) = true 
+
+FUNCTORES
+
+nacio(mati,fecha(3,8,1981))
+
+?- nacio(mati, Cuando).
+  Cuando =  fecha(3,8,1981)
+
+?- nacio(mati,fecha(_,Mes,_))
+  Mes = 8
+
