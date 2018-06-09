@@ -40,3 +40,29 @@ color(canilla(_,Color,_),Color).
   puedoEnchufar(codo(azul),codo(rojo)).
 
   */
+
+% not
+miro(xavi,xxx).
+miro(mati,xxx).
+
+pelicula(xxx).
+pelicula(xxx2).
+
+esMala(Pelicula):-
+  not(miro(_,Pelicula)).
+
+%Test esMala(Pelicula) = false no es inversible
+%para que sea inversible
+
+esMala2(Pelicula):-
+  pelicula(Pelicula), %--> predicado Generador
+  not(miro(_,Pelicula)).
+
+%orden Superior 
+cinefilo(xavi).
+
+granPelicula(Pelicula):-
+  pelicula(Pelicula), %--> predicado Generador
+  forall(cinefilo(P),miro(P,Pelicula)).
+
+%forall Predicado de orden Superior
